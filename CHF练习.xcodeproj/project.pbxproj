@@ -406,7 +406,6 @@
 				18B96D5921228D6300B00A9B /* InputView.m */,
 				18B96C85212276F000B00A9B /* Mine */,
 				18B96C63212276F000B00A9B /* Enroll */,
-				18B96C6F212276F000B00A9B /* LoginImg */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -424,7 +423,6 @@
 				18B96C68212276F000B00A9B /* ThirdEnrollLittleView.m */,
 				18B96C6B212276F000B00A9B /* ThirdEnrollTextModel.h */,
 				18B96C6C212276F000B00A9B /* ThirdEnrollTextModel.m */,
-				18B96C64212276F000B00A9B /* contact_图层-2.png */,
 			);
 			path = Enroll;
 			sourceTree = "<group>";
@@ -479,8 +477,6 @@
 				18B96CAB212276FA00B00A9B /* ChatCell.m */,
 				18B96CAC212276FA00B00A9B /* ChatModel.h */,
 				18B96CAD212276FA00B00A9B /* ChatModel.m */,
-				18B96CB0212276FA00B00A9B /* jiaoliu_nav_btn_talk.png */,
-				18B96CB1212276FA00B00A9B /* jiaoliu_nav_btn_talk_press.png */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -506,8 +502,6 @@
 				18B96DDB2122FE1600B00A9B /* SecondVCThirdView.m */,
 				18B96DDD2122FFC500B00A9B /* SecondVCForthView.h */,
 				18B96DDE2122FFC500B00A9B /* SecondVCForthView.m */,
-				18B96CD22122777E00B00A9B /* pinglun.png */,
-				18B96CBA2122777E00B00A9B /* dainzan.png */,
 				18B96CBB2122777E00B00A9B /* DynamicIMG */,
 				18B96CD32122777E00B00A9B /* SecondIMG */,
 			);
@@ -554,6 +548,16 @@
 			path = SecondIMG;
 			sourceTree = "<group>";
 		};
+		18E68A4C218191A8006796DA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				18B96C6F212276F000B00A9B /* LoginImg */,
+				187109C7212574720028DCDC /* images */,
+				18F32772211C6D340009B03E /* icon */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		18F3271E211C57FF0009B03E = {
 			isa = PBXGroup;
 			children = (
@@ -578,7 +582,7 @@
 				18B96CB72122777E00B00A9B /* Dynamic */,
 				18B96C62212276F000B00A9B /* Login */,
 				18B96CA9212276FA00B00A9B /* Chat */,
-				18F32772211C6D340009B03E /* icon */,
+				18E68A4C218191A8006796DA /* source */,
 				18F32739211C58050009B03E /* main.m */,
 				18F32738211C58050009B03E /* Info.plist */,
 				18B96DCD2122B93200B00A9B /* CHF练习.pch */,
@@ -586,7 +590,6 @@
 				18F32733211C58050009B03E /* Assets.xcassets */,
 				18F32735211C58050009B03E /* LaunchScreen.storyboard */,
 				18AB32E6212D580600426437 /* Masonry */,
-				187109C7212574720028DCDC /* images */,
 			);
 			path = "CHF练习";
 			sourceTree = "<group>";
@@ -594,6 +597,11 @@
 		18F32772211C6D340009B03E /* icon */ = {
 			isa = PBXGroup;
 			children = (
+				18B96CB0212276FA00B00A9B /* jiaoliu_nav_btn_talk.png */,
+				18B96CB1212276FA00B00A9B /* jiaoliu_nav_btn_talk_press.png */,
+				18B96C64212276F000B00A9B /* contact_图层-2.png */,
+				18B96CD22122777E00B00A9B /* pinglun.png */,
+				18B96CBA2122777E00B00A9B /* dainzan.png */,
 				18B96D4E21227A4100B00A9B /* -register_nav_icon_back_press.png */,
 				18B96D4F21227A4100B00A9B /* -register_nav_icon_back.png */,
 				18B96D5021227A4100B00A9B /* back_press.png */,
